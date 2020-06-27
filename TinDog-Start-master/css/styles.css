@@ -1,0 +1,147 @@
+#title{
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  padding-bottom: 15%;
+}
+
+h1{
+  font-family: 'Montserrat-Black';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.25;
+}
+
+h2{
+  font-family: 'Montserrat-Bold';
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'montserrat-bold' sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin: auto;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 0;
+}
+
+.imagephone{
+  transform: rotate(25deg);
+  position: absolute;
+  /* By default each div is stacked one over the other in the order that first one is on the back & future ones at back. Z-index allows to reverse this position */
+  /* Remember -> Without the position being set for a div (or being set static) as say absolute, z-index will not work */
+  z-index: 1;
+}
+
+#features{
+  position: relative;
+  z-index: 2;
+}
+
+.featurecontainer{
+  text-align: center;
+   /* margin: 17rem 0; */
+   padding: 20% 0;
+
+  background-color: white;
+}
+
+.featuretext{
+  color: #8f8f8f;
+  display: inline-block;
+  margin: 0  1.5rem;
+}
+
+.icon{
+  color: #ef8172;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+#testimonials{
+  /* margin: 0 1.5rem; */
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonal-img{
+  width: 15%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+.carousel-item{
+    padding: 8% 25%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+.presslogo{
+
+  width: 10%;
+  margin-right: 2rem;
+  margin-bottom: 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricingcolumn{
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 8rem 20rem;
+}
+
+.cta-body{
+  font-family: 'Montserrat-Black';
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.25;
+  margin: 1rem 2rem;
+  padding-bottom: 2rem;
+}
+
+.cta-btn{
+  margin-left: 1.5rem;
+}
+
+#footer{
+  padding: 6rem 0;
+  text-align: center;
+  font-size: 1.10rem;
+}
+
+.footer-fab{
+  margin-right: 2rem;
+}
+
+.footer-para{
+  padding-top: 1.5rem;
+}
